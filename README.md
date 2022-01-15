@@ -7,5 +7,5 @@ Author will keep it up to date.
 Changes will be noticed here.
 
 
-Changes for conflict
+
 

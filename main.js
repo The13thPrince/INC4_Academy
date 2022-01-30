@@ -20,16 +20,14 @@ string_to_change = "https://inc4.net/what-can-cedefi-bring-to-the-crypto-industr
  }    
 
 function capitalize(str){
-    word = str.split(" ");
+    word = str.split(" "); // разделяем строку на массив слов (делитель - пробел)
     for (var i = 0; i < word.length; i++){
-        word[i] = word[i].charAt(0).toUpperCase() + word[i].substring(1);
+        word[i] = word[i].charAt(0).toUpperCase() + word[i].substring(1); // делаем каждую 1 букву заглавной
     }
     str = word;
     return str;
 }
 
-
-
  article_name = capitalize(article_name);
  console.log(domen);
- console.log(article_name.join(" "));
+ console.log(article_name.join(" ")); //обьединяем элементы мвссива в строку с пробелами
